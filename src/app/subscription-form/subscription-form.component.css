@@ -2,19 +2,7 @@
   background-color: var(--secondary-color);
   width: 1100px;
 }
-input[type="text"],input[type="email"]{
-  height: 60px;
-  padding-left: 20px ;
-  font-size: 13px;
-  width: 100%;
-}
-.btn-sub{
-  border: none;
-  background-color: var(--primary-color);
-  color: white;
-  height: 60px;
 
-}
 .subs-text{
   width: 500px;
   margin: 10px;
