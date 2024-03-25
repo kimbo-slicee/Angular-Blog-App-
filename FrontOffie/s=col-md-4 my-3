@@ -1,0 +1,41 @@
+[33mcommit 4a88ac31b8c746024209f5ea1380a9529fb3937a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Wed Mar 20 02:25:51 2024 +0000
+
+    add html and css style to the components
+
+[33mcommit 628b6ba5a777bf842c14753e9e7a094ecb997410[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Tue Mar 19 03:54:39 2024 +0000
+
+    add styles and new components
+
+[33mcommit 0dbbeeaf8d93fe73fe0ee4c7502e9f9251b7f868[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Tue Mar 19 00:40:18 2024 +0000
+
+    add Bootstarp to the application
+
+[33mcommit 297119acdf70b13c7d941d52f9f74f0d090fd633[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Tue Mar 19 00:04:12 2024 +0000
+
+    Add routes to the project
+
+[33mcommit 113478335619d5d3095c613e504018658eb18276[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Mon Mar 18 23:48:44 2024 +0000
+
+    generate all components with angular CLI that we need in our project
+
+[33mcommit 22a47b5756732a1e83acce86d6bf0e06354de42c[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Mon Mar 18 23:27:13 2024 +0000
+
+    generate new component withe angular cli
+
+[33mcommit 201ecc0bec2a6745c7a8ce7cb05a79af4666d461[m
+Author: Mohammed_Elaouri <mohammedelaouri@gmail.com>
+Date:   Mon Mar 18 22:57:31 2024 +0000
+
+    initial commit

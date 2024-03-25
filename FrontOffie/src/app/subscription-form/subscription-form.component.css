@@ -1,0 +1,9 @@
+.card{
+  background-color: var(--secondary-color);
+  width: 1100px;
+}
+
+.subs-text{
+  width: 500px;
+  margin: 10px;
+}

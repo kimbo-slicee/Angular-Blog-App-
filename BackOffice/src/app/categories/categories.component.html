@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 bg-secondary-theme shadow-effect p-5">
+      <h3 class="text-center text-theme-primary">{{fromStatus}} Categories </h3>
+      <p class="text-center mb-5">You can add new categories from here ! </p>
+      <form class="form-check-inline text-center d-flex flex-wrap"  #categoryForm='ngForm' (ngSubmit)="onsubmit(categoryForm)" >
+        <div class="form-group col-md-10">
+          <input
+                 #newCategory='ngModel'
+                 type="text"
+                 name="category"
+                 class="form-control shadow-effect"
+                 placeholder="Add New Categories"
+                 [(ngModel)]="formCategory"
+                 [ngClass]="{'is-invalid':newCategory.touched && newCategory.invalid } "
+                 required
+                 ngModel>
+        </div>
+
+        <div class="col-md-2">
+          <button class="btn btn-block btn-info mb-2 btn-them"  [disabled]="categoryForm.invalid">{{fromStatus}} Category </button>
+        </div>
+        <div class="alert alert-danger" *ngIf="newCategory.touched && newCategory.invalid">
+          Category field is required
+        </div>
+      </form>
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="card shadow-effect">
+          <div class="card-body">
+            <table class="table row-broder hover">
+              <thead>
+              <tr>
+                <th>No</th>
+                <th>category</th>
+                <th>Actions</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let category of categoyArray ; let i=index">
+                <td>{{i}}</td>
+                <td>{{category.data.category}}</td>
+                <td>
+                  <button class="btn btn-sm btn-warning" (click)="onEdite(category.id,category.data.category)">Edit<i class="bi bi-pencil-square mx-1"></i></button>
+                  <button class="btn btn-sm btn-danger mx-2"
+                          (click)="onDelete(category.id)">Delete<i class="bi bi-trash mx-1"></i></button>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</div>
